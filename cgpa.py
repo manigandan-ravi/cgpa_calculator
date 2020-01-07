@@ -13,7 +13,6 @@ def gpa():
     gpa1 = format((cg_sum / c_sum), ".2f")
     return gpa1
 
-
 def cgpa():
     gpa_sum = 0
     n = int(input("enter the sem no:"))

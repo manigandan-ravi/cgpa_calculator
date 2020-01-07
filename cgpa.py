@@ -1,7 +1,7 @@
 def gpa():
     cg_sum = 0
     c_sum = 0
-    n = int(input("Enter the number of subjects:"))
+    n = int(input("Enter the number of subjects :"))
     for i in range(1, n + 1):
         print("Enter the credit for subject ", i)
         c = int(input())
@@ -23,7 +23,6 @@ def cgpa():
     cgpa1 = format((gpa_sum / n), ".2f")
     return cgpa1
 
-
 condition = True
 while condition:
     print("1.GPA", "\n2.CGPA", "\n3.Exit")
@@ -35,4 +34,4 @@ while condition:
     elif ch == 3:
         condition = False
     else:
-        print("Enter a valid choice")
+        print("Enter a valid choice ")

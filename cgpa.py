@@ -20,7 +20,7 @@ def cgpa():
         print("Enter the GPA of sem ", i)
         gpa_sum += float(input())
 
-    cgpa1 = format((gpa_sum / n), ".3f")
+    cgpa1 = format((gpa_sum / n), ".2f")
     return cgpa1
 
 condition = True
